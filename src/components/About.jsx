@@ -6,7 +6,7 @@ export default function About() {
     <section id="tentang">
       <Reveal className="about-grid">
         <div className="about-visual glass">
-          <img src="/images/hero/tentang.jpg" alt="tentang" />
+          <img src="/images/hero/pemandangan2.jpg" alt="tentang" />
         </div>
         <div className="about-card glass" style={{ borderRadius: "36px" }}>
           <span

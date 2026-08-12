@@ -9,7 +9,6 @@ import Peternakan from "./components/Peternakan.jsx";
 import Umkm from "./components/Umkm.jsx";
 import EventCalendar from "./components/EventCalendar.jsx";
 import Galeri from "./components/Galeri.jsx";
-import Berita from "./components/Berita.jsx";
 import SosialMedia from "./components/SosialMedia.jsx";
 import Footer from "./components/Footer.jsx";
 import useTheme from "./hooks/useTheme.js";
@@ -31,7 +30,6 @@ export default function App() {
       <Umkm />
       <EventCalendar />
       <Galeri />
-      <Berita />
       <SosialMedia />
       <Footer />
     </>

@@ -6,7 +6,6 @@ export const navItems = [
   { href: "#umkm", label: "UMKM" },
   { href: "#event", label: "Event" },
   { href: "#galeri", label: "Galeri" },
-  { href: "#berita", label: "Berita" },
 ];
 
 export const aboutStats = [
@@ -26,38 +25,38 @@ export const potensiList = [
   {
     icon: "wheat",
     title: "Pertanian",
-    desc: "Padi, kopi, dan hortikultura dikelola dengan sistem irigasi sungai yang berkelanjutan.",
-    tag: "120 Ha Lahan",
+    desc: "Padi, kopi, cabe, pakcoi dan sayuran lainnya mengikuti musim.",
+    tag: "120+ Ha Lahan",
     iconBg: "linear-gradient(135deg,var(--green-bright),var(--green-deep))",
     tagBg: "rgba(52,199,123,0.16)",
     tagColor: "var(--green-deep)",
+    img: "/images/potensi/kebun.png",
+    fullDesc:
+      "Lahan pertanian desa menghasilkan padi, kopi, dan dan sayuran lain, hortikultura. Pengelolaan dilakukan dengan memanfaatkan irigasi sungai secara berkelanjutan dan gotong royong warga.",
   },
   {
     icon: "basket",
     title: "UMKM",
-    desc: "Kerajinan anyaman, kopi kemasan, dan makanan olahan khas dipasarkan hingga luar kota.",
-    tag: "20 Usaha Kerajinan",
+    desc: "Kerajinan anyaman lap cempal, Pembuatan Sepatu Kulit, Sendal Kulit dan Celana Pendek dipasarkan hingga luar kota.",
+    tag: "20+ Usaha Kerajinan",
     iconBg: "linear-gradient(135deg,#F6C453,#E89A2C)",
     tagBg: "rgba(232,154,44,0.16)",
     tagColor: "#B36B0F",
+    img: "/images/potensi/umkm.png",
+    fullDesc:
+      "Produk anyaman, kopi kemasan, dan makanan olahan khas menjadi penggerak ekonomi warga. Pelaku UMKM terus mengembangkan kualitas produk serta pemasaran hingga ke luar kota.",
   },
   {
     icon: "cow",
     title: "Peternakan",
     desc: "Peternakan domba, kambing, dan sapi dikelola warga sebagai sumber penghasilan tambahan.",
-    tag: "5 Peternakan",
+    tag: "6+ Peternakan",
     iconBg: "linear-gradient(135deg,#C9975A,#8A5A2B)",
     tagBg: "rgba(138,90,43,0.16)",
     tagColor: "#8A5A2B",
-  },
-  {
-    icon: "drama",
-    title: "Budaya",
-    desc: "Tari tradisional dan upacara adat rutin digelar sebagai bagian dari identitas desa.",
-    tag: "8 Tradisi Lestari",
-    iconBg: "linear-gradient(135deg,#7C6FF0,#4B3FCB)",
-    tagBg: "rgba(124,111,240,0.16)",
-    tagColor: "#4B3FCB",
+    img: "/images/potensi/peternakan.png",
+    fullDesc:
+      "Domba, kambing, dan sapi dipelihara oleh kelompok warga sebagai sumber penghasilan tambahan. Kegiatan ini juga mendukung ketersediaan hewan kurban di wilayah sekitar.",
   },
 ];
 
@@ -69,7 +68,7 @@ export const peternakanList = [
     desc: "Dikelola warga sebagai usaha sampingan sekaligus pemenuhan kebutuhan hewan kurban.",
     meta: "RW.009",
     bg: "linear-gradient(135deg,#C9975A,#8A5A2B)",
-    img: "/images/peternakan/Domba.jpg",
+    img: "/images/peternakan/Kambing.jpg",
   },
   {
     title: "Peternakan Kambing",
@@ -78,7 +77,7 @@ export const peternakanList = [
     desc: "Dipelihara secara berkelompok, hasil ternak dijual ke wilayah sekitar.",
     meta: "RW.009",
     bg: "linear-gradient(135deg,#B7906A,#6E4A26)",
-    img: "/images/peternakan/kambing.jpg",
+    img: "/images/peternakan/Domba.jpg",
   },
   {
     title: "Peternakan Sapi",
@@ -95,54 +94,103 @@ export const umkmList = [
   {
     icon: "sewing",
     title: "Anyaman Kain Lap",
-    price: "Rp 45.000",
+    price: "1 kodi Rp 13.000 - 15.000",
     bg: "linear-gradient(135deg,#E7C79A,#B98A4B)",
-    img: "/images/umkm/anyaman-kain-lap.jpg",
+    img: "/images/umkm/kain-lap.png",
   },
   {
     icon: "basket",
     title: "Sepatu Kulit",
-    price: "Rp 700.000",
+    price: "1 Pcs Rp 700.000 - 1.000.000",
     bg: "linear-gradient(135deg,#B7F0D2,#34C77B)",
     img: "/images/umkm/sepatu kulit.jpg",
   },
   {
     icon: "honey",
     title: "Sandal Indian",
-    price: "Rp 150.000",
+    price: "1 Pcs Rp 150.000",
     bg: "linear-gradient(135deg,#CDEBFF,#3AA6FF)",
     img: "/images/umkm/sendal kulit.jpeg",
   },
   {
     icon: "wool",
     title: "Celana Pendek/Kolor",
-    price: "Rp 150.000",
+    price: "1 kodi Rp 30.000",
     bg: "linear-gradient(135deg,#F4D1DC,#E0709A)",
-    img: "/images/umkm/kain-tenun.jpg",
+    img: "/images/umkm/celana-pendek.jpg",
   },
 ];
 
 export const eventList = [
   {
     day: "17",
-    month: "Agu",
-    title: "Karnaval Kemerdekaan Desa",
-    desc: "Pawai budaya dan lomba warga di sepanjang jalan utama.",
+    month: "Agustus",
+    title: "Acara Kegiatan Karnaval Kemerdekaan Republik Indonesia",
+    desc: "Pawai budaya dan lomba warga di Kp. Ciheuleut",
     bg: "linear-gradient(135deg,var(--green-bright),var(--green-deep))",
+    img: "/images/event/karnaval-kemerdekaan.jpg",
+    fullDesc:
+      "Karnaval kemerdekaan menghadirkan pawai budaya, lomba warga, dan penampilan kreatif dari setiap wilayah. Kegiatan berlangsung di sepanjang hari di wilayah Rw.009.",
   },
   {
-    day: "03",
-    month: "Sep",
-    title: "Pasar Tani Bulanan",
-    desc: "Bazar hasil pertanian dan produk UMKM di Balai Desa.",
-    bg: "linear-gradient(135deg,var(--blue-bright),var(--blue-deep))",
-  },
-  {
-    day: "21",
-    month: "Sep",
-    title: "Festival Panen Raya",
-    desc: "Perayaan hasil panen dengan pertunjukan tari tradisional.",
+    day: "Senin",
+    month: "Sore",
+    title: "Pasar Senin",
+    desc: "Tempat Belanja, Kuliner, keperluan Konsumsi, Sembako dan kebutuhan lainnya",
     bg: "linear-gradient(135deg,#F6C453,#E89A2C)",
+    img: "/images/event/festival-panen.jpg",
+    fullDesc:
+      "Tempat Belanja, Kuliner, keperluan Konsumsi, Sembako dan kebutuhan lainnya",
+  },
+  {
+    day: "Rabu",
+    month: "Malam",
+    title: "Sholawat Nabi Muhammad SAW.",
+    desc: "Sholawat Nabi adalah untaian pujian, doa, dan bentuk penghormatan sakral yang dipanjatkan oleh umat Islam untuk Nabi Muhammad SAW. di Madrasah di wilayah RT.001",
+    bg: "linear-gradient(135deg,var(--blue-bright),var(--blue-deep))",
+    img: "/images/event/pasar-tani.jpg",
+    fullDesc:
+      "Sholawat Nabi adalah untaian pujian, doa, dan bentuk penghormatan sakral yang dipanjatkan oleh umat Islam untuk Nabi Muhammad SAW. di Madrasah di wilayah RT.001",
+  },
+  {
+    day: "Kamis",
+    month: "Sore",
+    title: "Senam Aerobik",
+    desc: "kegiatan olahraga komunitas skala lokal yang rutin diadakan oleh warga setempat—biasanya didominasi oleh kelompok ibu-ibu—sebagai sarana menjaga kebugaran sekaligus mempererat silaturahmi antarwarga dan dilaksanakan di Lapangan voly yang berada di RT.003. ",
+    bg: "linear-gradient(135deg,#F6C453,#E89A2C)",
+    img: "/images/event/festival-panen.jpg",
+    fullDesc:
+      "kegiatan olahraga komunitas skala lokal yang rutin diadakan oleh warga setempat—biasanya didominasi oleh kelompok ibu-ibu—sebagai sarana menjaga kebugaran sekaligus mempererat silaturahmi antarwarga. ",
+  },
+  {
+    day: "kamis",
+    month: "Pagi",
+    title: "Kegiatan Pemeriksaan Kesehatan Di POSYANDU",
+    desc: "Sholawat Nabi adalah untaian pujian, doa, dan bentuk penghormatan sakral yang dipanjatkan oleh umat Islam untuk Nabi Muhammad SAW. di Madrasah di wilayah RT.001",
+    bg: "linear-gradient(135deg,var(--blue-bright),var(--blue-deep))",
+    img: "/images/event/pasar-tani.jpg",
+    fullDesc:
+      "Sholawat Nabi adalah untaian pujian, doa, dan bentuk penghormatan sakral yang dipanjatkan oleh umat Islam untuk Nabi Muhammad SAW. di Madrasah di wilayah RT.001",
+  },
+  {
+    day: "Jumat",
+    month: "Pagi",
+    title: "Kerja Bakti JUMSIH Di Kp. Ciheuleut RW.009",
+    desc: "Tempat Belanja, Kuliner, keperluan Konsumsi, Sembako dan kebutuhan lainnya",
+    bg: "linear-gradient(135deg,#F6C453,#E89A2C)",
+    img: "/images/event/festival-panen.jpg",
+    fullDesc:
+      "Tempat Belanja, Kuliner, keperluan Konsumsi, Sembako dan kebutuhan lainnya",
+  },
+  {
+    day: "Jumat",
+    month: "Siang",
+    title: "Rutinan Pengajian Wanita",
+    desc: "Pawai budaya dan lomba warga di Kp. Ciheuleut",
+    bg: "linear-gradient(135deg,var(--green-bright),var(--green-deep))",
+    img: "/images/event/karnaval-kemerdekaan.jpg",
+    fullDesc:
+      "Karnaval kemerdekaan menghadirkan pawai budaya, lomba warga, dan penampilan kreatif dari setiap wilayah. Kegiatan berlangsung di sepanjang hari di wilayah Rw.009.",
   },
 ];
 
@@ -185,29 +233,6 @@ export const galleryList = [
   },
 ];
 
-export const beritaList = [
-  {
-    date: "24 Juli 2026",
-    title: "Renovasi Jembatan Ciwangi Rampung",
-    desc: "Akses utama menuju dusun barat kini lebih aman dan lancar.",
-    bg: "linear-gradient(135deg,#34C77B,#0B6E4F)",
-    img: "/images/berita/jembatan-ciwangi.jpg",
-  },
-  {
-    date: "18 Juli 2026",
-    title: "Pelatihan Digital Marketing UMKM",
-    desc: "40 pelaku usaha desa mengikuti pelatihan pemasaran daring.",
-    bg: "linear-gradient(135deg,#3AA6FF,#0A4D8C)",
-    img: "/images/berita/pelatihan-umkm.jpg",
-  },
-  {
-    date: "10 Juli 2026",
-    title: "Panen Kopi Meningkat 20%",
-    desc: "Cuaca yang mendukung membuat hasil panen kopi tahun ini melimpah.",
-    bg: "linear-gradient(135deg,#F6C453,#E89A2C)",
-    img: "/images/berita/panen-kopi.jpg",
-  },
-];
 
 export const kontakInfo = [
   {

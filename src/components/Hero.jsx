@@ -8,7 +8,7 @@ export default function Hero() {
       <div className="hero-stage" ref={stageRef}>
         <div className="hero-scene">
           <img
-            src="/images/hero/tentang2.jpg"
+            src="/images/hero/pemandangan1.jpg"
             alt="Pemandangan Kp. Ciheuleut"
           />
         </div>
@@ -24,9 +24,10 @@ export default function Hero() {
             className="hero-badge glass"
             style={{ border: "1px solid rgba(255,255,255,0.4)" }}
           >
-            Website Resmi Kampung
+            Website Resmi
           </span>
-          <h1>Kp. Ciheuleut Guyub Akur, Lembur Makmur</h1>
+          <h1>Kp. Ciheuleut RW.009</h1>
+          <h1>Guyub Akur, Lembur Makmur</h1>
           <p>
             Menjelajahi potensi pertanian, UMKM, peternakan, dan budaya kampung
             kami — dikemas dalam satu ruang digital yang jernih dan hidup.

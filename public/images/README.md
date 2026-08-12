@@ -25,6 +25,19 @@ supaya otomatis muncul di website tanpa perlu edit kode lagi.
 ## public/images/berita/
 - jembatan-ciwangi.jpg
 - pelatihan-umkm.jpg
+
+## public/images/potensi/
+
+- pertanian.jpg
+- umkm.jpg
+- peternakan.jpg
+- budaya.jpg
+
+## public/images/event/
+
+- karnaval-kemerdekaan.jpg
+- pasar-tani.jpg
+- festival-panen.jpg
 - panen-kopi.jpg
 
 ## Catatan

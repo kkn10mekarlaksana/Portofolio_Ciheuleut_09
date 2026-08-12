@@ -49,8 +49,10 @@ export default function Umkm() {
                   <Icon size={30} color="white" />
                 </span>
               </div>
-              <h4>{item.title}</h4>
-              <div className="umkm-price">{item.price}</div>
+              <div className="umkm-info">
+                <h4>{item.title}</h4>
+                <div className="umkm-price">{item.price}</div>
+              </div>
             </div>
           );
         })}

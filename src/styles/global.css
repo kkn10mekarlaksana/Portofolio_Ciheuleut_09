@@ -650,6 +650,12 @@ section {
   border-radius: 32px;
   padding: 34px 26px;
   min-height: 260px;
+  width: 100%;
+  border: 0;
+  color: inherit;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -679,6 +685,22 @@ section {
 .potensi-card p {
   font-size: 0.88rem;
   color: var(--ink-soft);
+}
+.potensi-media,
+.event-media {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  margin-top: 18px;
+  border-radius: 16px;
+  overflow: hidden;
+}
+.potensi-media img,
+.event-media img,
+.detail-modal-image img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
 }
 .potensi-tag {
   align-self: flex-start;
@@ -788,7 +810,8 @@ section {
   transform: translateY(-6px);
 }
 .umkm-media {
-  height: 120px;
+  width: 100%;
+  aspect-ratio: 4 / 3;
   border-radius: 18px;
   margin-bottom: 16px;
   display: flex;
@@ -826,6 +849,12 @@ section {
   display: flex;
   align-items: center;
   gap: 24px;
+  width: 100%;
+  border: 0;
+  color: inherit;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
   padding: 20px 26px;
   border-radius: 26px;
   transition: transform 0.35s var(--ease-spring);
@@ -859,6 +888,65 @@ section {
 .event-detail p {
   font-size: 0.85rem;
   color: var(--ink-soft);
+}
+
+/* ---------- Detail potensi dan event ---------- */
+.detail-modal-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  background: rgba(14, 31, 25, 0.64);
+  backdrop-filter: blur(8px);
+}
+.detail-modal {
+  width: min(100%, 650px);
+  max-height: min(90vh, 720px);
+  overflow-y: auto;
+  position: relative;
+  border-radius: 28px;
+  background: var(--white);
+  box-shadow: 0 24px 80px rgba(0, 0, 0, 0.28);
+}
+.detail-modal-image {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+}
+.detail-modal-content {
+  padding: 28px;
+}
+.detail-modal-type {
+  color: var(--green-deep);
+  font-size: 0.78rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+.detail-modal-content h3 {
+  margin: 7px 0 12px;
+  font-size: 1.45rem;
+}
+.detail-modal-content p {
+  color: var(--ink-soft);
+  line-height: 1.75;
+}
+.detail-modal-close {
+  position: absolute;
+  z-index: 1;
+  top: 14px;
+  right: 14px;
+  width: 38px;
+  height: 38px;
+  border: 0;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.92);
+  color: var(--ink);
+  font-size: 1.7rem;
+  line-height: 1;
+  cursor: pointer;
 }
 
 /* ---------- Galeri ---------- */
@@ -1136,9 +1224,19 @@ footer {
   .section-sub {
     margin-bottom: 34px;
   }
-  .stat-grid,
-  .umkm-grid {
+  .stat-grid {
     grid-template-columns: 1fr 1fr;
+  }
+  .umkm-grid {
+    grid-template-columns: 1fr;
+  }
+  .umkm-card {
+    padding: 18px;
+  }
+  .umkm-media {
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    margin-bottom: 16px;
   }
   .potensi-grid {
     grid-template-columns: 1fr;
@@ -1167,8 +1265,14 @@ footer {
     padding: 16px 18px;
     gap: 16px;
   }
+  .detail-modal-backdrop {
+    padding: 16px;
+  }
+  .detail-modal-content {
+    padding: 22px;
+  }
   .event-date {
-    min-width: 60px;
+    min-width: 75px;
     height: 60px;
     border-radius: 18px;
   }
@@ -1178,8 +1282,7 @@ footer {
 }
 @media (max-width: 420px) {
   .stat-grid,
-  .potensi-grid,
-  .umkm-grid {
+  .potensi-grid {
     grid-template-columns: 1fr;
   }
   .hero-content h1 {

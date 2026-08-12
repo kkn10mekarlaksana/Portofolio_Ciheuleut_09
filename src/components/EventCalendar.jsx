@@ -1,7 +1,11 @@
+import { useState } from 'react'
 import Reveal from './Reveal.jsx'
+import DetailModal from './DetailModal.jsx'
 import { eventList } from '../data/content.js'
 
 export default function EventCalendar() {
+  const [selectedEvent, setSelectedEvent] = useState(null)
+
   return (
     <section id="event">
       <Reveal>
@@ -11,7 +15,7 @@ export default function EventCalendar() {
       </Reveal>
       <Reveal className="event-list">
         {eventList.map((ev) => (
-          <div className="event-row glass" key={ev.title}>
+          <button className="event-row glass" type="button" key={ev.title} onClick={() => setSelectedEvent(ev)} aria-label={`Lihat detail ${ev.title}`}>
             <div className="event-date" style={{ background: ev.bg }}>
               <strong>{ev.day}</strong>
               <span>{ev.month}</span>
@@ -19,10 +23,14 @@ export default function EventCalendar() {
             <div className="event-detail">
               <h4>{ev.title}</h4>
               <p>{ev.desc}</p>
+              <div className="event-media" style={{ background: ev.bg }}>
+                <img src={ev.img} alt="" onError={(event) => { event.currentTarget.style.display = "none" }} />
+              </div>
             </div>
-          </div>
+          </button>
         ))}
       </Reveal>
+      {selectedEvent && <DetailModal item={selectedEvent} type="Kalender Event" onClose={() => setSelectedEvent(null)} />}
     </section>
   )
 }

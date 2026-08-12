@@ -26,7 +26,6 @@ export default function Footer() {
             <a href="#umkm">Produk UMKM</a>
             <a href="#event">Kalender Event</a>
             <a href="#galeri">Galeri</a>
-            <a href="#berita">Berita</a>
           </div>
           <div className="footer-col">
             <h5>Sosial</h5>
