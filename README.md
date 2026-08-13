@@ -1,4 +1,4 @@
-# Desa Sukamaju — React (Vite)
+# Kampung Ciheuleut RW.009 — React (Vite)
 
 Versi React dari `index.html` (single-file) website Desa Sukamaju, dipecah menjadi komponen agar mudah dikembangkan.
 
@@ -50,8 +50,3 @@ desa-sukamaju-react/
 
 **Total: 24 file** (3 file konfigurasi/entry + 1 CSS + 1 data + 5 hooks + 14 komponen).
 
-## Catatan
-
-- Semua warna, animasi glass, dan efek "liquid glass" tetap sama persis dengan versi `index.html` sebelumnya.
-- Konten (teks kartu wisata, UMKM, event, dsb.) sekarang ada di satu tempat: `src/data/content.js` — ubah di situ saja tanpa perlu menyentuh komponen.
-- Untuk menambah section baru: buat file baru di `components/`, lalu import & panggil di `App.jsx`.
