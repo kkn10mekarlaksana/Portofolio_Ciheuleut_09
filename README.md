@@ -1,7 +1,5 @@
 # Kampung Ciheuleut RW.009 — React (Vite)
 
-Versi React dari `index.html` (single-file) website Desa Sukamaju, dipecah menjadi komponen agar mudah dikembangkan.
-
 ## Menjalankan proyek
 
 ```bash
@@ -14,7 +12,7 @@ npm run preview   # preview hasil build
 ## Struktur folder
 
 ```
-desa-sukamaju-react/
+desa-Ciheuleut-react/
 ├── index.html                 # entry HTML untuk Vite
 ├── package.json
 ├── vite.config.js
