@@ -63,7 +63,7 @@ export const potensiList = [
 export const peternakanList = [
   {
     title: "Peternakan Domba",
-    icon: "sheep",
+    icon: "goat",
     jumlah: "Kelompok Ternak Warga",
     desc: "Dikelola warga sebagai usaha sampingan sekaligus pemenuhan kebutuhan hewan kurban.",
     meta: "RW.009",
@@ -72,7 +72,7 @@ export const peternakanList = [
   },
   {
     title: "Peternakan Kambing",
-    icon: "goat",
+    icon: "sheep",
     jumlah: "Kelompok Ternak Warga",
     desc: "Dipelihara secara berkelompok, hasil ternak dijual ke wilayah sekitar.",
     meta: "RW.009",
