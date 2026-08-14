@@ -68,7 +68,7 @@ export const peternakanList = [
     desc: "Dikelola warga sebagai usaha sekaligus pemenuhan kebutuhan hewan untuk Lomba dan kurban.",
     meta: "RW.009",
     bg: "linear-gradient(135deg,#C9975A,#8A5A2B)",
-    img: "/images/peternakan/Domba.jpg",
+    img: "/images/peternakan/Domba1.webp",
   },
   {
     title: "Peternakan Kambing",
@@ -77,7 +77,7 @@ export const peternakanList = [
     desc: "Di budidayakan untuk kebutuhan kurban dan sebagai sumber penghasilan warga",
     meta: "RW.009",
     bg: "linear-gradient(135deg,#B7906A,#6E4A26)",
-    img: "/images/peternakan/Kambing.jpg",
+    img: "/images/peternakan/Kambing1.jpg",
   },
   {
     title: "Peternakan Sapi",
