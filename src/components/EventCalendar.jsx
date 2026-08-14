@@ -11,8 +11,8 @@ export default function EventCalendar() {
     <section id="event">
       <Reveal>
         <span className="eyebrow" style={{ background: 'rgba(52,199,123,0.16)' }}>Agenda</span>
-        <h2 className="section-title">Kalender Event Desa</h2>
-        <p className="section-sub">Ikuti kegiatan dan perayaan yang berlangsung di desa kami.</p>
+        <h2 className="section-title">Kalender Kegiatan Kp. Ciheuleut</h2>
+        <p className="section-sub">Ikuti kegiatan dan perayaan yang berlangsung di wilayah kami.</p>
       </Reveal>
       <Reveal className="event-list">
         {eventList.map((ev) => (
