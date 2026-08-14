@@ -12,12 +12,26 @@ import Galeri from "./components/Galeri.jsx";
 import SosialMedia from "./components/SosialMedia.jsx";
 import Footer from "./components/Footer.jsx";
 import useTheme from "./hooks/useTheme.js";
+import PageLoader from "./components/PageLoader.jsx";
+import { useEffect, useState } from "react";
 
 export default function App() {
   const { dark, toggle } = useTheme();
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    const finishLoading = () => setIsLoading(false);
+    const fallback = window.setTimeout(finishLoading, 2500);
+    window.addEventListener("load", finishLoading, { once: true });
+    return () => {
+      window.clearTimeout(fallback);
+      window.removeEventListener("load", finishLoading);
+    };
+  }, []);
 
   return (
     <>
+      {isLoading && <PageLoader />}
       <Ambient />
       <Navbar dark={dark} onToggleTheme={toggle} />
 

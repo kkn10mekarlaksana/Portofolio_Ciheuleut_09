@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import LazyImage from "./LazyImage.jsx";
 
 export default function DetailModal({ item, onClose, type }) {
   useEffect(() => {
@@ -22,7 +23,7 @@ export default function DetailModal({ item, onClose, type }) {
           ×
         </button>
         <div className="detail-modal-image" style={{ background: item.bg || item.iconBg }}>
-          <img src={item.img} alt={item.title} onError={(event) => { event.currentTarget.style.display = "none"; }} />
+          <LazyImage src={item.img} alt={item.title} eager />
         </div>
         <div className="detail-modal-content">
           <span className="detail-modal-type">{type}</span>

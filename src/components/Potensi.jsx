@@ -3,6 +3,7 @@ import Reveal from "./Reveal.jsx";
 import DetailModal from "./DetailModal.jsx";
 import { potensiList } from "../data/content.js";
 import { GiWheat, GiBasket, GiCow, GiDramaMasks } from "react-icons/gi";
+import LazyImage from "./LazyImage.jsx";
 
 const iconMap = {
   wheat: GiWheat,
@@ -46,12 +47,9 @@ export default function Potensi() {
               <h3>{p.title}</h3>
               <p>{p.desc}</p>
               <div className="potensi-media" style={{ background: p.iconBg }}>
-                <img
+                <LazyImage
                   src={p.img}
-                  alt=""
-                  onError={(event) => {
-                    event.currentTarget.style.display = "none";
-                  }}
+                  alt={`Ilustrasi ${p.title}`}
                 />
               </div>
               <span

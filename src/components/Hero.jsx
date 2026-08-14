@@ -1,4 +1,5 @@
 import { useRef } from "react";
+import LazyImage from "./LazyImage.jsx";
 
 export default function Hero() {
   const stageRef = useRef(null);
@@ -7,9 +8,10 @@ export default function Hero() {
     <section className="hero" id="home">
       <div className="hero-stage" ref={stageRef}>
         <div className="hero-scene">
-          <img
+          <LazyImage
             src="/images/hero/pemandangan1.jpg"
             alt="Pemandangan Kp. Ciheuleut"
+            eager
           />
         </div>
         <div className="hero-tint"></div>

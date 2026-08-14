@@ -1,12 +1,13 @@
 import Reveal from "./Reveal.jsx";
 import { aboutStats } from "../data/content.js";
+import LazyImage from "./LazyImage.jsx";
 
 export default function About() {
   return (
     <section id="tentang">
       <Reveal className="about-grid">
         <div className="about-visual glass">
-          <img src="/images/hero/pemandangan2.jpg" alt="tentang" />
+          <LazyImage src="/images/hero/pemandangan2.jpg" alt="Suasana Kp. Ciheuleut" />
         </div>
         <div className="about-card glass" style={{ borderRadius: "36px" }}>
           <span

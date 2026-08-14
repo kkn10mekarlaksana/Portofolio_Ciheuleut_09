@@ -1,6 +1,7 @@
 import Reveal from "./Reveal.jsx";
 import { peternakanList } from "../data/content.js";
 import { GiSheep, GiGoat, GiCow } from "react-icons/gi";
+import LazyImage from "./LazyImage.jsx";
 
 const iconMap = { sheep: GiSheep, goat: GiGoat, cow: GiCow };
 
@@ -29,12 +30,9 @@ export default function Peternakan() {
           return (
             <div className="wisata-card glass" key={p.title}>
               <div className="wisata-media" style={{ background: p.bg }}>
-                <img
+                <LazyImage
                   src={p.img}
                   alt={p.title}
-                  onError={(e) => {
-                    e.target.style.display = "none";
-                  }}
                 />
               </div>
               <div className="wisata-body">

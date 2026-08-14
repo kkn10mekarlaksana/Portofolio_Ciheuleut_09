@@ -1,5 +1,6 @@
 import Reveal from "./Reveal.jsx";
 import { galleryList } from "../data/content.js";
+import LazyImage from "./LazyImage.jsx";
 
 export default function Galeri() {
   return (
@@ -26,12 +27,9 @@ export default function Galeri() {
             key={item.tag}
             style={{ height: item.height, background: item.bg }}
           >
-            <img
+            <LazyImage
               src={item.img}
               alt={item.tag}
-              onError={(e) => {
-                e.target.style.display = "none";
-              }}
             />
             <span className="gtag">{item.tag}</span>
           </div>

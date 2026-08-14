@@ -1,6 +1,7 @@
 import Reveal from "./Reveal.jsx";
 import { umkmList } from "../data/content.js";
 import { GiSewingNeedle, GiBasket, GiHoneyJar, GiWool } from "react-icons/gi";
+import LazyImage from "./LazyImage.jsx";
 
 const iconMap = {
   sewing: GiSewingNeedle,
@@ -30,12 +31,11 @@ export default function Umkm() {
           return (
             <div key={item.title} className="umkm-card glass">
               <div className="umkm-media" style={{ background: item.bg }}>
-                <img
+                <LazyImage
                   src={item.img}
                   alt={item.title}
                   onError={(e) => {
-                    e.target.style.display = "none";
-                    e.target.nextSibling.style.display = "flex";
+                    e.currentTarget.parentElement.nextSibling.style.display = "flex";
                   }}
                 />
                 <span

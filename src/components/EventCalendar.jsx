@@ -2,6 +2,7 @@ import { useState } from 'react'
 import Reveal from './Reveal.jsx'
 import DetailModal from './DetailModal.jsx'
 import { eventList } from '../data/content.js'
+import LazyImage from './LazyImage.jsx'
 
 export default function EventCalendar() {
   const [selectedEvent, setSelectedEvent] = useState(null)
@@ -24,7 +25,7 @@ export default function EventCalendar() {
               <h4>{ev.title}</h4>
               <p>{ev.desc}</p>
               <div className="event-media" style={{ background: ev.bg }}>
-                <img src={ev.img} alt="" onError={(event) => { event.currentTarget.style.display = "none" }} />
+                <LazyImage src={ev.img} alt={`Dokumentasi ${ev.title}`} />
               </div>
             </div>
           </button>

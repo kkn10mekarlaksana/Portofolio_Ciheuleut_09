@@ -1,5 +1,6 @@
 import Reveal from './Reveal.jsx'
 import { beritaList } from '../data/content.js'
+import LazyImage from './LazyImage.jsx'
 
 export default function Berita() {
   return (
@@ -13,10 +14,9 @@ export default function Berita() {
         {beritaList.map((b) => (
           <div className="berita-card glass" key={b.title}>
             <div className="berita-media" style={{ background: b.bg }}>
-              <img
+              <LazyImage
                 src={b.img}
                 alt={b.title}
-                onError={(e) => { e.target.style.display = 'none' }}
               />
             </div>
             <div className="berita-body">
