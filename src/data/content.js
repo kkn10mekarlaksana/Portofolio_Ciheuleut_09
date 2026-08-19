@@ -168,7 +168,7 @@ export const eventList = [
     title: "Kegiatan Pemeriksaan Kesehatan Di POSYANDU",
     desc: "Pengecekan kesehatan anak mulai dari berat badan, tinggi badan, lingkar kepala, dan kesehatan di wilayah RT.001",
     bg: "linear-gradient(135deg,var(--blue-bright),var(--blue-deep))",
-    img: "/images/event/pasar-tani.jpg",
+    img: "/images/event/posyandu1.jpg",
     fullDesc:
       "Pengecekan kesehatan anak mulai dari berat badan, tinggi badan, lingkar kepala, dan pemberian imunisasi kepada anak atau bayi di wilayah RT.001",
   },
@@ -176,11 +176,11 @@ export const eventList = [
     day: "Jumat",
     month: "Pagi",
     title: "Kerja Bakti JUMSIH Di Kp. Ciheuleut RW.009",
-    desc: "Tempat Belanja, Kuliner, keperluan Konsumsi, Sembako dan kebutuhan lainnya",
+    desc: "Melakukan kegiatan kerja bakti untuk membersihkan atau melakukan pekerjaan untuk kepentingan bersama.",
     bg: "linear-gradient(135deg,#F6C453,#E89A2C)",
-    img: "/images/event/festival-panen.jpg",
+    img: "/images/event/Jumsih.jpg",
     fullDesc:
-      "Tempat Belanja, Kuliner, keperluan Konsumsi, Sembako dan kebutuhan lainnya",
+      "Melakukan kegiatan kerja bakti untuk membersihkan atau melakukan pekerjaan untuk kepentingan bersama.",
   },
   {
     day: "Jumat",
