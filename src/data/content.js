@@ -148,7 +148,7 @@ export const eventList = [
     title: "Sholawat Nabi Muhammad SAW.",
     desc: "Sholawat Nabi adalah untaian pujian, doa, dan bentuk penghormatan sakral yang dipanjatkan oleh umat Islam untuk Nabi Muhammad SAW. di Madrasah di wilayah RT.001",
     bg: "linear-gradient(135deg,var(--blue-bright),var(--blue-deep))",
-    img: "/images/event/pasar-tani.jpg",
+    img: "/images/event/sholawat.JPG",
     fullDesc:
       "Sholawat Nabi adalah untaian pujian, doa, dan bentuk penghormatan sakral yang dipanjatkan oleh umat Islam untuk Nabi Muhammad SAW. di Madrasah di wilayah RT.001",
   },
@@ -166,11 +166,11 @@ export const eventList = [
     day: "kamis",
     month: "Pagi",
     title: "Kegiatan Pemeriksaan Kesehatan Di POSYANDU",
-    desc: "Sholawat Nabi adalah untaian pujian, doa, dan bentuk penghormatan sakral yang dipanjatkan oleh umat Islam untuk Nabi Muhammad SAW. di Madrasah di wilayah RT.001",
+    desc: "Pengecekan kesehatan anak mulai dari berat badan, tinggi badan, lingkar kepala, dan kesehatan di wilayah RT.001",
     bg: "linear-gradient(135deg,var(--blue-bright),var(--blue-deep))",
     img: "/images/event/pasar-tani.jpg",
     fullDesc:
-      "Sholawat Nabi adalah untaian pujian, doa, dan bentuk penghormatan sakral yang dipanjatkan oleh umat Islam untuk Nabi Muhammad SAW. di Madrasah di wilayah RT.001",
+      "Pengecekan kesehatan anak mulai dari berat badan, tinggi badan, lingkar kepala, dan pemberian imunisasi kepada anak atau bayi di wilayah RT.001",
   },
   {
     day: "Jumat",
