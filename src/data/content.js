@@ -128,7 +128,7 @@ export const eventList = [
     title: "Acara Kegiatan Karnaval Kemerdekaan Republik Indonesia",
     desc: "Pawai budaya dan lomba warga di Kp. Ciheuleut",
     bg: "linear-gradient(135deg,var(--green-bright),var(--green-deep))",
-    img: "/images/event/karnaval-kemerdekaan.jpg",
+    img: "/images/event/kemerdekaan.jpg",
     fullDesc:
       "Karnaval kemerdekaan menghadirkan pawai budaya, lomba warga, dan penampilan kreatif dari setiap wilayah. Kegiatan berlangsung di sepanjang hari di wilayah Rw.009.",
   },
@@ -158,7 +158,7 @@ export const eventList = [
     title: "Senam Aerobik",
     desc: "kegiatan olahraga komunitas skala lokal yang rutin diadakan oleh warga setempat—biasanya didominasi oleh kelompok ibu-ibu—sebagai sarana menjaga kebugaran sekaligus mempererat silaturahmi antarwarga dan dilaksanakan di Lapangan voly yang berada di RT.003. ",
     bg: "linear-gradient(135deg,#F6C453,#E89A2C)",
-    img: "/images/event/festival-panen.jpg",
+    img: "/images/event/Senam Pagi.jpg",
     fullDesc:
       "kegiatan olahraga komunitas skala lokal yang rutin diadakan oleh warga setempat—biasanya didominasi oleh kelompok ibu-ibu—sebagai sarana menjaga kebugaran sekaligus mempererat silaturahmi antarwarga. ",
   },
