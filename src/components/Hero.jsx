@@ -17,7 +17,7 @@ export default function Hero() {
         <div className="hero-tint"></div>
 
         <div className="hero-orbit glass-strong ellipse">
-          <strong>25</strong>
+          <strong>25+</strong>
           <span>Pelaku UMKM</span>
         </div>
 
