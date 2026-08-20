@@ -186,11 +186,11 @@ export const eventList = [
     day: "Jumat",
     month: "Siang",
     title: "Rutinan Pengajian Wanita",
-    desc: "Pawai budaya dan lomba warga di Kp. Ciheuleut",
+    desc: "Rutinan pengajian wanita yang di laksanakan setelah sholat jumat di masjid Al-Islam",
     bg: "linear-gradient(135deg,var(--green-bright),var(--green-deep))",
-    img: "/images/event/karnaval-kemerdekaan.jpg",
+    img: "/images/event/pengajian.JPG",
     fullDesc:
-      "Karnaval kemerdekaan menghadirkan pawai budaya, lomba warga, dan penampilan kreatif dari setiap wilayah. Kegiatan berlangsung di sepanjang hari di wilayah Rw.009.",
+      "Rutinan pengajian wanita yang di laksanakan setelah sholat jumat di masjid Al-Islam.",
   },
 ];
 
