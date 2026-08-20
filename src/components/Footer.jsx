@@ -37,25 +37,11 @@ export default function Footer() {
               Instagram
             </a>
             <a
-              href="https://facebook.com/kpciheuleut"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Facebook
-            </a>
-            <a
               href="https://tiktok.com/@kpciheuleut"
               target="_blank"
               rel="noreferrer"
             >
               TikTok
-            </a>
-            <a
-              href="https://youtube.com/@kpciheuleut"
-              target="_blank"
-              rel="noreferrer"
-            >
-              YouTube
             </a>
           </div>
         </div>
