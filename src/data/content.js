@@ -133,16 +133,6 @@ export const eventList = [
       "Karnaval kemerdekaan menghadirkan pawai budaya, lomba warga, dan penampilan kreatif dari setiap wilayah. Kegiatan berlangsung di sepanjang hari di wilayah Rw.009.",
   },
   {
-    day: "Senin",
-    month: "Sore",
-    title: "Pasar Senin",
-    desc: "Tempat Belanja, Kuliner, keperluan Konsumsi, Sembako dan kebutuhan lainnya",
-    bg: "linear-gradient(135deg,#F6C453,#E89A2C)",
-    img: "/images/event/festival-panen.jpg",
-    fullDesc:
-      "Tempat Belanja, Kuliner, keperluan Konsumsi, Sembako dan kebutuhan lainnya",
-  },
-  {
     day: "Rabu",
     month: "Malam",
     title: "Sholawat Nabi Muhammad SAW.",
@@ -262,18 +252,8 @@ export const sosmedList = [
     url: "https://instagram.com/kpciheuleut",
   },
   {
-    title: "Facebook",
-    handle: "Kp. Ciheuleut RW.009",
-    url: "https://facebook.com/kpciheuleut",
-  },
-  {
     title: "TikTok",
     handle: "@kpciheuleut",
     url: "https://tiktok.com/@kpciheuleut",
-  },
-  {
-    title: "YouTube",
-    handle: "Kp. Ciheuleut Channel",
-    url: "https://youtube.com/@kpciheuleut",
   },
 ];
